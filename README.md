@@ -42,4 +42,5 @@ El sistema implementado corresponde a un sistema de control en lazo cerrado para
 
 ## 6) Carpeta de registros audiovisuales
 En el siguiente link podrán acceder a la carpeta con los registros audiovisuales del proyecto:
+([Carpeta registros audiovisuales](https://github.com/TomasWityk/Proyecto-Mecatronica/tree/d7f582911d95c63d2b97696b3192d372937d1184/Registros%20audiovisuales%20Segway%20Monkey))
 
