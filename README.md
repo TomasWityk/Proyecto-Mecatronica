@@ -1,6 +1,7 @@
 # Proyecto de Mecatrónica: Segway Monkey
 
 <img width="465" height="602" alt="segway monkey 1" src="https://github.com/user-attachments/assets/12e261b9-75cd-4628-8131-d64283edf006" />
+
 ![foto 1 }](https://github.com/user-attachments/assets/2ec3a501-20fe-44b8-a479-3b68b29c4abe)
 
 ## Integrantes: Julio Dufflocq, Bruno Giannetti, Francisca Henríquez y Tomás Wityk.
