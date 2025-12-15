@@ -25,6 +25,18 @@ El siguiente link es de los archivos CAD que se usaron ([Carpeta CAD](https://gi
 ## 3) Carpeta de componentes y materiales
 **Componentes**
 ![foto 2](Componentes.png)
+**[1] Arduino Uno:** Permite el procesamiento continuo de señales provenientes del sensor inercial y la ejecución del algoritmo de control en lazo cerrado con tiempos de muestreo adecuados para un sistema dinámico e inestable. La disponibilidad de múltiples pines digitales posibilita el control independiente de las señales STEP y DIR de cada driver, mientras que su soporte nativo para comunicación I\textsuperscript{2}C permite una integración directa y estable con el sensor de orientación.
+
+**[2] Driver HW 135:** Proveen la interfaz eléctrica necesaria entre el microcontrolador y los motores paso a paso, siendo capaces de manejar los niveles de corriente requeridos por motores NEMA 17. La compatibilidad con señales de control STEP y DIR permite un control preciso de la velocidad y el sentido de giro, lo cual es fundamental para traducir las acciones del controlador en correcciones mecánicas proporcionales a la magnitud del error de inclinación.
+
+**[3] Sensor GY-521:** Incorpora un acelerómetro y un giroscopio de tres ejes (X, Y y Z), lo que permite medir tanto aceleraciones lineales como velocidades angulares en los ejes relevantes para la inclinación del robot. En particular, la información del eje de rotación asociado al plano de balanceo resulta esencial para estimar el ángulo de inclinación respecto a la vertical. La combinación de ambas mediciones permite compensar las limitaciones individuales de cada sensor, mejorando la estabilidad y precisión de la señal de retroalimentación utilizada por el controlador.
+
+**[4] Motores NEMA 17:** Entregan un torque suficiente para generar las fuerzas necesarias que compensan el momento producido por la inclinación del robot. Su capacidad de respuesta y control del desplazamiento angular permite realizar correcciones rápidas y repetibles, lo cual es crítico en un sistema autobalanceante donde pequeñas variaciones en el ángulo requieren ajustes inmediatos para evitar la pérdida de estabilidad.
+
+**[5] Baterías de litio recargables (3 × 3,9 V) con portapilas:** Suministran el voltaje y la energía necesarios para alimentar tanto la electrónica de control como la etapa de potencia. La configuración en serie permite alcanzar un nivel de tensión adecuado para el funcionamiento de los drivers y los motores, manteniendo al mismo tiempo una alta densidad energética que favorece la autonomía y reduce el impacto del peso en la dinámica del sistema.
+
+**[6] Interruptor general:** Permite aislar eléctricamente el sistema completo de la fuente de alimentación, facilitando la realización de pruebas, ajustes y reinicios del sistema de control sin comprometer la integridad de los componentes ni la seguridad del usuario.
+
 **Materiales**
 
 
