@@ -26,9 +26,9 @@ El siguiente link es de los archivos CAD que se usaron ([Carpeta CAD](https://gi
 
 
 ## 4) Carpeta de código
-**Diagrama de conexiones**
 
 ## 5) Carpeta de diagramas electrónicos
+**Diagrama de conexiones**
 ![foto 1 }](Diagrama Conexiones.png)
 
 El sistema eléctrico del robot atobalancín se alimenta a partir de una batería principal, la cual se conecta inicialmente a un interruptor general. Este interruptor permite energizar o desenergizar el sistema completo de manera segura. Desde el interruptor, la alimentación se distribuye hacia los drivers de los motores mediante la entrada de potencia (Power In), proporcionando la energía necesaria para el accionamiento de los motores paso a paso NEMA 17.
