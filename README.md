@@ -12,6 +12,7 @@
 ### 4) Carpeta de código
 ### 5) Carpeta de diagramas electrónicos
 ### 6) Carpeta de registros audiovisuales
+(Para este proyecto no se usaron referencias externas a las recomendaciones del eequipo docente. No nos basamos en ningún proyecto de internet ni ocupamos papers académicos sobre el tema.)
 
 ## 1) Descripción del proyecto
 Aquí podrán encontrar los archivos tipo .f3d, .f3z y .stl ocupados para diseñar e imprimir las diferentes piezas de nuestro robot-mono autobalancín. Escogimos darle al proyeto una estética de chimpancé sobre un Scooter Segway pues nos pareció gracioso y ad-hoc al robot autobalancín ya que los scooters marca Segway ocupan esta tecnología para balancearse.
