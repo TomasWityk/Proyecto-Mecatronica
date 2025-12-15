@@ -23,13 +23,16 @@ Aquí podrán encontrar los archivos tipo .f3d, .f3z y .stl ocupados para diseñ
 El siguiente link es de los archivos CAD que se usaron ([Carpeta CAD](https://github.com/TomasWityk/Proyecto-Mecatronica/tree/c9919a96ce4f7ce4c64e0028fc4ff8c7a873124e/Proyecto%20Mecatronica%20Grupo%201))
 
 ## 3) Carpeta de componentes y materiales
+**Componentes**
+![foto 2](Componentes.png)
+**Materiales**
 
 
 ## 4) Carpeta de código
 
 ## 5) Carpeta de diagramas electrónicos
 **Diagrama de conexiones**
-![foto 2](DiagramaConexiones.png)
+![foto 3](DiagramaConexiones.png)
 
 El sistema eléctrico del robot atobalancín se alimenta a partir de una batería principal, la cual se conecta inicialmente a un interruptor general. Este interruptor permite energizar o desenergizar el sistema completo de manera segura. Desde el interruptor, la alimentación se distribuye hacia los drivers de los motores mediante la entrada de potencia (Power In), proporcionando la energía necesaria para el accionamiento de los motores paso a paso NEMA 17.
 
@@ -42,7 +45,7 @@ El sensor de inclinación GY-521 se alimenta directamente desde la salida de 5 V
 Finalmente, todas las conexiones de referencia eléctrica (GND) del sistema (batería, drivers, Arduino y sensor) se encuentran unidas en un mismo punto común. Esta conexión a tierra compartida es fundamental para garantizar una correcta referencia de voltaje, reducir ruidos eléctricos y asegurar la estabilidad del sistema de control.
 
 **Diagrama de sistema de control**
-![foto 3](DiagramaConexiones(1).png)
+![foto 4](DiagramaConexiones(1).png)
 
 El sistema implementado corresponde a un sistema de control en lazo cerrado para un robot autobalanceante. El ángulo de inclinación es medido mediante un sensor GY-521, el cual entrega información de aceleración y velocidad angular. Estos datos son procesados por un Arduino Uno, donde se implementa un controlador PID encargado de generar la señal de control. Dicha señal es enviada a los drivers HW-135, que alimentan los motores NEMA 17, permitiendo corregir la inclinación del robot y mantener el equilibrio.
 
