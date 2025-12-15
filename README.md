@@ -27,6 +27,8 @@ El siguiente link es de los archivos CAD que se usaron ([Carpeta CAD](https://gi
 
 ## 4) Carpeta de código
 **Diagrama de conexiones**
+
+## 5) Carpeta de diagramas electrónicos
 ![foto 1 }](Diagrama Conexiones.png)
 
 El sistema eléctrico del robot atobalancín se alimenta a partir de una batería principal, la cual se conecta inicialmente a un interruptor general. Este interruptor permite energizar o desenergizar el sistema completo de manera segura. Desde el interruptor, la alimentación se distribuye hacia los drivers de los motores mediante la entrada de potencia (Power In), proporcionando la energía necesaria para el accionamiento de los motores paso a paso NEMA 17.
@@ -37,14 +39,12 @@ El control de los motores se realiza a través de las señales digitales STEP y 
 
 El sensor de inclinación GY-521 se alimenta directamente desde la salida de 5 V del Arduino Uno. La comunicación entre el sensor y el microcontrolador se realiza mediante el protocolo I\textsuperscript{2}C, utilizando los pines SDA y SCL, los cuales se encuentran asociados a los pines analógicos del Arduino. A través de esta interfaz, el sensor transmite la información de aceleración y velocidad angular necesaria para estimar el ángulo de inclinación del robot.
 
-Finalmente, todas las conexiones de referencia eléctrica (GND) del sistema —incluyendo batería, drivers, Arduino y sensor— se encuentran unidas en un mismo punto común. Esta conexión a tierra compartida es fundamental para garantizar una correcta referencia de voltaje, reducir ruidos eléctricos y asegurar la estabilidad del sistema de control.
+Finalmente, todas las conexiones de referencia eléctrica (GND) del sistema (batería, drivers, Arduino y sensor) se encuentran unidas en un mismo punto común. Esta conexión a tierra compartida es fundamental para garantizar una correcta referencia de voltaje, reducir ruidos eléctricos y asegurar la estabilidad del sistema de control.
 
 **Diagrama de sistema de control**
 ![foto 1 }](Diagrama Conexiones (1).png)
 
 El sistema implementado corresponde a un sistema de control en lazo cerrado para un robot autobalanceante. El ángulo de inclinación es medido mediante un sensor GY-521, el cual entrega información de aceleración y velocidad angular. Estos datos son procesados por un Arduino Uno, donde se implementa un controlador PID encargado de generar la señal de control. Dicha señal es enviada a los drivers HW-135, que alimentan los motores NEMA 17, permitiendo corregir la inclinación del robot y mantener el equilibrio.
-
-## 5) Carpeta de diagramas electrónicos
 
 
 ## 6) Carpeta de registros audiovisuales
