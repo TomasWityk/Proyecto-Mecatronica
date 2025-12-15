@@ -16,4 +16,4 @@
 ## 1) Descripción del proyecto
 Aquí podrán encontrar los archivos tipo .f3d, .f3z y .stl ocupados para diseñar e imprimir las diferentes piezas de nuestro robot-mono autobalancín. Escogimos darle al proyeto una estética de chimpancé sobre un Scooter Segway pues nos pareció gracioso y ad-hoc al robot autobalancín ya que los scooters marca Segway ocupan esta tecnología para balancearse.
 
-[Hola]([path/to/the/folder](https://github.com/TomasWityk/Proyecto-Mecatronica/tree/c9919a96ce4f7ce4c64e0028fc4ff8c7a873124e/Proyecto%20Mecatronica%20Grupo%201))
+([path/to/the/folder](https://github.com/TomasWityk/Proyecto-Mecatronica/tree/c9919a96ce4f7ce4c64e0028fc4ff8c7a873124e/Proyecto%20Mecatronica%20Grupo%201))
