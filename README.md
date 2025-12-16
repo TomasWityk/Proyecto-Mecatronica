@@ -46,7 +46,7 @@ Para las conexiones de todos los componentes electricos a la carcasa se usaron p
 
 ## 4) Carpeta de código
 
-El siguiente link es del codigo PDI usó 
+El siguiente link hace referencia a la carpeta con el código utilizado para el sistema de control PID de nuestro robot. [Código](https://github.com/TomasWityk/Proyecto-Mecatronica/tree/71e3d7fe7eb02406f8a7c89c6a796200511573ef/SEGWAY_MONKEY_PID_FINAL)
 
 ## 5) Carpeta de diagramas electrónicos
 **Diagrama de conexiones**
