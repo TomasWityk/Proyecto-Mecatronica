@@ -38,9 +38,15 @@ El siguiente link es de los archivos CAD que se usaron ([Carpeta CAD](https://gi
 **[6] Interruptor general:** Permite aislar eléctricamente el sistema completo de la fuente de alimentación, facilitando la realización de pruebas, ajustes y reinicios del sistema de control sin comprometer la integridad de los componentes ni la seguridad del usuario.
 
 **Materiales**
+Para las paredes inferiores, superiores y la tapa superior se usó acrilico ya que, estos son componenetes planos y no tienen relieves, por lo cual se pueden cortar con una cortadora laser. Por otro lado, los dos pisos (inferior y superior) y la tapa del piso inferior se fabricaron mediante impresión 3D, esto se hace dado que son piezas que tienen relieves.
 
+Para la sujeción del sirviente chimpancé "Pogo", se usó velcro. También, para sujetar la botella que Pogo sostiene, se usó masilla adhesiva. 
+
+Para las conexiones de todos los componentes electricos a la carcasa se usaron pernos M3 y sus respectivas tuercas. Se usaron los mismos pernos para juntar todas las piezas de la carcasa entre sí.
 
 ## 4) Carpeta de código
+
+El siguiente link es del codigo PDI usó 
 
 ## 5) Carpeta de diagramas electrónicos
 **Diagrama de conexiones**
